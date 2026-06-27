@@ -17,6 +17,10 @@ public class TimeClock {
             // THE RESCUE ZONE
             System.out.println("ERROR: Invalid keypad input detected. Please enter numbers only!");
         }
+        finally {
+            // THE CLEANUP ZONE
+           System.out.println("CLEANUP: Closing connections to the factory timecard system database.");
+        }
 
         // PROOF OF SURVIVAL (No variables needed here)
         System.out.println("Server remains online.");
