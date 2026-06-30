@@ -31,6 +31,6 @@ public class FactoryDatabase {
             System.out.println("[RESULT] Assembly Line requires: " + partFound);
         }
 
-        System.out.println("[RESULT] Assembly Line requires: " + partFound);
+       
     }
 }
